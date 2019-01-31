@@ -207,18 +207,17 @@ li:hover{
 
 
 
-/* .toggleClass{
+.toggleClass{
+    border: 2px solid #EC523F;
     display: none;
     position: absolute;
     height: 200px;
-    width: 100px;
+    width: 110px;
     margin-top: 50px;
-    background-color: #19BC9C;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: rgb(255, 255, 255);
+    
 }
-.show {display:block;} */
+.show {display:block;}
 
 @media only screen and (max-width: 600px){
     .tSquareBot, .tSquare{
@@ -232,7 +231,7 @@ li:hover{
         width: 450px;
     }
 }
-/* @media only screen and (max-width: 450px){
+@media only screen and (max-width: 450px){
     .tSquareBot, .tSquare{
         width: 200px;
     }
@@ -247,18 +246,21 @@ li:hover{
     margin: 7px;
     }
     .menu{
-    width: 300px;
+    width: 110px;
+    justify-content: center;
     }
     .menuUl{
     display: none;
     }
-   
-    } */
+    }
+
+    @media only screen and (min-width: 450px){
+        #togg{display: none};
+
+    }
 
 
-
-
-    @media only screen and (max-width: 450px){
+    /* @media only screen and (max-width: 450px){
         .tSquareBot, .tSquare{
             width: 200px;
         }
@@ -284,6 +286,6 @@ li:hover{
         .menuUl>ul{
        margin: 0 auto;
         }
-        }
+        } */
     
     

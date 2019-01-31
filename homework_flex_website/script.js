@@ -11,17 +11,24 @@ for(i = 0; i < 4; i++){
     topDiv[3].className = "icon4";
 
    
-// var toggDiv = document.createElement("div");
-// toggDiv.className = "toggleClass";
-// document.getElementById("menu").appendChild(toggDiv);
+var toggDiv = document.createElement("div");
+toggDiv.className = "toggleClass";
+toggDiv.id = "togg";
+document.getElementById("menu").appendChild(toggDiv);
     
-//     var toggDiv = document.getElementById("menu").children;
+    var toggDiv = document.getElementById("menu").children;
 
 
-//     document.getElementById("logo").onclick = function() {logoClick()};
-//     function logoClick() {
-//         document.toggDiv.classList.toggle("show");
-//       }
+    document.getElementById("logo").onclick = function(){logoClick()};
+    function logoClick() {
+
+        togg.classList.toggle("show");  
+      }
+
+      var ul = document.getElementById("xxx");
+      togg.appendChild(ul);
+
+
 // TOP SQUARES
 for(i = 0; i < 4; i++){
     var sqDiv = document.createElement("div");
