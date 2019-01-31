@@ -206,6 +206,20 @@ li:hover{
 }
 
 
+
+/* .toggleClass{
+    display: none;
+    position: absolute;
+    height: 200px;
+    width: 100px;
+    margin-top: 50px;
+    background-color: #19BC9C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.show {display:block;} */
+
 @media only screen and (max-width: 600px){
     .tSquareBot, .tSquare{
         width: 400px;
@@ -218,7 +232,7 @@ li:hover{
         width: 450px;
     }
 }
-@media only screen and (max-width: 450px){
+/* @media only screen and (max-width: 450px){
     .tSquareBot, .tSquare{
         width: 200px;
     }
@@ -235,14 +249,41 @@ li:hover{
     .menu{
     width: 300px;
     }
-    .flexTxt, .flexLogo{
+    .menuUl{
     display: none;
     }
-    .menuUl{
-    width: 100%;
-    }
-    .menuUl>ul{
-   margin: 0 auto;
-    }
-    }
+   
+    } */
 
+
+
+
+    @media only screen and (max-width: 450px){
+        .tSquareBot, .tSquare{
+            width: 200px;
+        }
+        .tSquare{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .square1, .square2, .square3, .square0, .botSquare0, .botSquare1, .botSquare2, 
+        .botSquare3, .botSquare4, .botSquare5, .botSquare6, .botSquare7{
+        width: 200px;
+        height: 200px;
+        margin: 7px;
+        }
+        .menu{
+        width: 300px;
+        }
+        .flexTxt, .flexLogo{
+        display: none;
+        }
+        .menuUl{
+        width: 100%;
+        }
+        .menuUl>ul{
+       margin: 0 auto;
+        }
+        }
+    
+    

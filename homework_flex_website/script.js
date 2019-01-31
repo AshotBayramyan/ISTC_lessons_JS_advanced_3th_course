@@ -10,6 +10,18 @@ for(i = 0; i < 4; i++){
     topDiv[2].className = "icon3";
     topDiv[3].className = "icon4";
 
+   
+// var toggDiv = document.createElement("div");
+// toggDiv.className = "toggleClass";
+// document.getElementById("menu").appendChild(toggDiv);
+    
+//     var toggDiv = document.getElementById("menu").children;
+
+
+//     document.getElementById("logo").onclick = function() {logoClick()};
+//     function logoClick() {
+//         document.toggDiv.classList.toggle("show");
+//       }
 // TOP SQUARES
 for(i = 0; i < 4; i++){
     var sqDiv = document.createElement("div");
