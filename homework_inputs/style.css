@@ -8,13 +8,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1000px;
-    height: 500px;
-    background-color: rgb(235, 235, 235);
+    width: 100%;
+    height: 100%;
+
 }
 #inpDivId{
     display: flex;
-    padding: 10px;
+    padding: 10px 0;
     width: 700px;
     height: 50px;
     background-color: #FFF;
@@ -32,12 +32,19 @@
 #buttId{
     border: 1px solid rgb(218, 218, 218);
     border-radius: 5px;
+    margin-left: 5px;
     padding: 0px 10px;
     background-color: #FFF;
     outline: none;
 }
-/* #formDivId{
-    width: 1000px;
-    height: 500px;
-    background-color: rgb(235, 235, 235);
-} */
+#formDivId{
+    display: none;
+    width: 700px;
+    height: 50px;
+    background-color: #FFF;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 5px;
+}
+.show{
+    display: block;
+}

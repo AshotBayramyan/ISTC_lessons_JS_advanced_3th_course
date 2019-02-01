@@ -24,3 +24,15 @@ butt.appendChild(document.createTextNode("Add"))
 let formDiv = document.createElement("div")
 formDiv.id = "formDivId"
 document.getElementById("bodId").appendChild(formDiv)
+
+let formDiv = document.getElementById("bodId").children
+
+
+    document.getElementById("buttId").onclick = function(){newForm()}
+    function newForm() {
+
+        formDiv.appendChild("formDiv")
+      }
+
+    //   var ul = document.getElementById("xxx")
+    //   togg.appendChild(ul)
