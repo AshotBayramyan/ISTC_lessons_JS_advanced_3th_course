@@ -18,4 +18,9 @@ document.getElementById("inpId").placeholder = "add a new todo item ..."
 let butt = document.createElement("button")
 butt.id = ("buttId")
 document.getElementById("inpDivId").appendChild(butt)
-butt.appendChild(document.createTextNode("Add"));
+butt.appendChild(document.createTextNode("Add"))
+
+// forms
+let formDiv = document.createElement("div")
+formDiv.id = "formDivId"
+document.getElementById("bodId").appendChild(formDiv)
