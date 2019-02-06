@@ -81,7 +81,6 @@ section>div>p{
     word-break: break-all;
     font-size: 12px;
 }
-
 section>.not_done>*:not( :last-child ){
     color: green;
 }
