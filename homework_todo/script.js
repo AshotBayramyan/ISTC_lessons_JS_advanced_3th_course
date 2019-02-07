@@ -3,8 +3,8 @@ var emp = document.getElementsByClassName("empty")[0]
 var sec = document.getElementsByTagName("section")[0]
 var taskList = []                                       
 var iconsClass = {                                          
-        check: 'far fa-check-square',
-        trash: 'fas fa-trash-alt'
+        check: 'far fa-check-circle',
+        trash: "fas fa-trash"
     }
 function addToDoList(){
   let inp = document.getElementById("inpId")
@@ -12,7 +12,7 @@ function addToDoList(){
     emp.innerHTML = "Please enter the task!"
     return
 }
-emp.innerHTML = ""   //jnjelu entaka
+
 taskList.unshift({task: inp.value, made: false})
     inp.value = ""                             
     createTaskTable(taskList)
@@ -20,7 +20,8 @@ taskList.unshift({task: inp.value, made: false})
 
 function createTaskTable(list){
     sec.innerHTML = ""
-/* creating previous task section and its nested items */
+
+
 for (let i = 0; i < list.length; i++) {
     var block = document.createElement('div');
 
@@ -36,7 +37,7 @@ for (let i = 0; i < list.length; i++) {
     var iconTrash = document.createElement('i');
     iconTrash.className = iconsClass.trash;
 
-    /* checking tasks done or not done, and overeating the appropriate style */
+
     if (list[i].made) {                          
         block.className = 'done'; 
     } else {
@@ -54,13 +55,13 @@ for (let i = 0; i < list.length; i++) {
 }
 
 }
-/* if done it is marked true */
+
 function taskDone(event) {
 var taskId = event.target.parentElement.children[0].innerHTML;
 taskList[taskId].made = true;
 createTaskTable(taskList);
 }
-/* delete task*/
+
 function deleteTask(event) {
 var taskId = event.target.parentElement.children[0].innerHTML;
 taskList.splice(taskId, 1);
