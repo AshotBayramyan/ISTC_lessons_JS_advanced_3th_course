@@ -41,6 +41,7 @@ html, body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     margin-top: -5px;
+    margin-bottom: 5px;
     padding-left: 10px;
     display: flex;
     justify-content: flex-start;
@@ -67,7 +68,7 @@ section>div>span:nth-child(1){
     display: none;
 }
 section>div>i{
-    font-size: 20px;
+    font-size: 15px;
     cursor: pointer;
 }
 section>div>*:last-child{

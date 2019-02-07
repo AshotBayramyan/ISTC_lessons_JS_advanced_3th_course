@@ -51,7 +51,7 @@ for (let i = 0; i < list.length; i++) {
     block.appendChild(text);
     block.appendChild(iconTrash);
     sec.appendChild(block);
-    
+
 }
 
 }
