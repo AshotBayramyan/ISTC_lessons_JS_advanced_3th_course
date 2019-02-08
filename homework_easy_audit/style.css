@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body, .container{
+    display: flex;
+    width: 100%;
+}
+.container{
+   flex-direction: column;
+}
+.toggle{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(170, 170, 170);
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    height: 34px;
+    width: 135px;
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+}
+.ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 34px;
+    width: 700px;   
+}
+.ul>li{
+    padding: 20px;
+    cursor: pointer;
+    /* <i class="fal fa-user"></i> */
+}
