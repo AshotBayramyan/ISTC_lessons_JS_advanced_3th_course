@@ -1,12 +1,22 @@
-var ul = document.getElementById("productList")
+function myFunction(){
+    var message, input;
 
-fetch("https://jsonplaceholder.typicode.com/todos")
-.then(response => response.json())
-.then(response => {
-    for(i = 0; i < 5; i++){
-        console.log(response, "hello")
-        var li = document.createElement("li")
-        ul.appendChild(li).innerHTML = response[i]
-    }
+    input = document.getElementById("inp").value;
+    message = document.getElementById("message");
+    message.innerHTML = ""; 
 
-})
+try{
+    if(input == "") throw "input is empaty";
+    if(input > 10) throw "tivy mec e 10";
+    if(input < 10) throw "tivy poqr e 10";
+    if(input == 10) throw "tivy havasar e 10"
+    if(typeof input == "string") throw "xndrvum e nermucel tiv";
+}
+catch(err){
+    message.innerHTML = " " + err;
+
+}
+finally {
+    document.getElementById("inp").value = "";
+}
+}
