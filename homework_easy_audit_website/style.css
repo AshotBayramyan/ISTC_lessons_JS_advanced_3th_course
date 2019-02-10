@@ -33,5 +33,27 @@ html, body, .container{
 .ul>li{
     padding: 20px;
     cursor: pointer;
-    /* <i class="fal fa-user"></i> */
+    
 }
+.fal{
+    width: 20px;
+    height: 20px;
+}
+.mySlides {
+    display: none
+}
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 2s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
