@@ -95,3 +95,51 @@ html, body, .container{
     from {opacity: 0.6} 
     to {opacity: 1}
   }
+
+.midText{
+    width: 700px;
+    height: 200px;
+    border: 3px solid #37C98A;
+    border-style: dashed;
+}
+.button_1{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    padding: 18px 55px;
+    border: none;
+    background-color: #37C98A;
+}
+.square{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sq{
+    
+    width: 33.299999%;
+    height: 400px;
+    
+
+}
+{
+    border-right: 0.5px solid #E5E7E9;
+    border-bottom: 0.5px solid #E5E7E9;
+}
+.sq_3{
+    border-bottom: 0.5px solid #E5E7E9;
+}
+.sq_4, .sq_5{
+    border-right: 0.5px solid #E5E7E9;
+}
+.sq_1>div, .sq_2>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 160px 60px;
+    border-right: 0.5px solid #E5E7E9;
+    border-bottom: 0.5px solid #E5E7E9;
+}
+.sq>div>p{
+    text-align: center;
+}
