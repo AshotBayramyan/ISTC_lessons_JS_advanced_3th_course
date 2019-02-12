@@ -96,12 +96,12 @@ html, body, .container{
     to {opacity: 1}
   }
 
-.midText{
+/* .midText{
     width: 700px;
     height: 200px;
     border: 3px solid #37C98A;
     border-style: dashed;
-}
+} */
 .button_1{
     font-size: 15px;
     font-weight: bold;
@@ -110,22 +110,26 @@ html, body, .container{
     border: none;
     background-color: #37C98A;
 }
-.square{
+.square, .square2{
     display: flex;
-    flex-wrap: wrap;
+    
 }
 .sq{
     
-    width: 33.299999%;
-    height: 400px;
+    width: 33.333%;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 130px;
+    border-right: 0.5px solid #E5E7E9;
+    border-bottom: 0.5px solid #E5E7E9;
     
 
 }
-{
-    border-right: 0.5px solid #E5E7E9;
-    border-bottom: 0.5px solid #E5E7E9;
-}
-.sq_3{
+
+/* .sq_3{
     border-bottom: 0.5px solid #E5E7E9;
 }
 .sq_4, .sq_5{
@@ -139,7 +143,11 @@ html, body, .container{
     padding: 160px 60px;
     border-right: 0.5px solid #E5E7E9;
     border-bottom: 0.5px solid #E5E7E9;
-}
-.sq>div>p{
+} */
+.sq>div{
     text-align: center;
+}
+.sq>div>i{
+    height: 50px;
+    width: 50px;
 }
