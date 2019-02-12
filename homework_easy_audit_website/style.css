@@ -111,11 +111,9 @@ html, body, .container{
     background-color: #37C98A;
 }
 .square, .square2{
-    display: flex;
-    
+    display: flex;    
 }
 .sq{
-    
     width: 33.333%;
     height: 330px;
     display: flex;
@@ -125,8 +123,6 @@ html, body, .container{
     padding: 50px 130px;
     border-right: 0.5px solid #E5E7E9;
     border-bottom: 0.5px solid #E5E7E9;
-    
-
 }
 
 /* .sq_3{
