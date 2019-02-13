@@ -1,3 +1,29 @@
+let pages = $("#pages")
+let pagesList = $("#pagesList")
+$(document).ready(function(){
+  $(pages).hover(function(){
+    $(pagesList).toggle();
+  });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
