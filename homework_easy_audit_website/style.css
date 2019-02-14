@@ -37,17 +37,57 @@ html, body, .container{
     align-items: center;
     height: 34px;
     width: 700px;   
-    
     font-size: 15px;
-    font-weight: bold;
+    
 }
 .ul>li{
     padding: 20px;
     cursor: pointer;
+    
 }
-.ul>li:hover{
+.ul>li>a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+.ul>li>a:hover, #pagesList>li:hover{
     color: #37C98A;
-    transition: 1s;
+    transition: 0.3s;
+}
+/* pages */
+#pages{
+    display: flex;
+    justify-content: center;
+    
+}
+#pagesList{
+    list-style-type: none;
+    width: 130px;
+    height: 390px;
+    background-color: #3A3C3E;
+    color: white;
+    display: none;
+    position: absolute;
+    z-index: 10;
+    padding: 13px;
+    top: 80px;
+ 
+}
+#pagesList::before{
+    content: " ";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-color: #3A3C3E;
+    position: absolute;
+    transform: rotateZ(45deg);
+    top: -10px;
+    left: 65px;
+   
+}
+#pagesList>li{
+    margin: 13px;
 }
 .fal{
     width: 20px;
@@ -165,12 +205,3 @@ html, body, .container{
     width: 50px;
 }
 
-/* pages */
-#pagesList{
-    width: 100px;
-    height: 300px;
-    background-color: red;
-    display: none;
-    position: absolute;
-    z-index: 10;
-}
