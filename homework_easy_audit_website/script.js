@@ -23,7 +23,6 @@ $(document).ready(function(){
 
 
 
-
 var slideIndex = 1;
 showSlides(slideIndex);
 

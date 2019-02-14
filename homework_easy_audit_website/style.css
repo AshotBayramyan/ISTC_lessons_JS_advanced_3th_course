@@ -10,6 +10,7 @@ html, body, .container{
 .container{
    flex-direction: column;
 }
+
 .toggle{
     display: flex;
     width: 100%;
