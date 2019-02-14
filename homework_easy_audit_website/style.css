@@ -119,19 +119,26 @@ html, body, .container{
     border: none;
     background-color: #37C98A;
 }
-.square, .square2{
+.square{
     display: flex;    
+    flex-wrap: wrap;
 }
 .sq{
-    width: 33.333%;
+    width: 33.3%;
     height: 330px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px 130px;
-    border-right: 0.5px solid #E5E7E9;
+   
+    
+}
+.sq_1, .sq_2, .sq_3{
     border-bottom: 0.5px solid #E5E7E9;
+}
+.sq_2, .sq_5{
+    border-right: 0.5px solid #E5E7E9;
+    border-left: 0.5px solid #E5E7E9;
 }
 
 /* .sq_3{
