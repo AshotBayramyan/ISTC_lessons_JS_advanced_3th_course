@@ -32,8 +32,10 @@ html, body, .container{
     background-repeat: no-repeat;
 }
 .ulDiv{
+    width: 650px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
   
 }
 .ul{
@@ -41,7 +43,7 @@ html, body, .container{
     display: flex;
     align-items: center;
     height: 34px;
-    width: 700px;   
+     
     font-size: 14px;
     font-weight: bold;
     
@@ -57,7 +59,15 @@ html, body, .container{
     font-weight: bold;
     
 }
-.ul>li>a:hover, #pagesList>li:hover{
+.ul>li>a:hover, #pagesList>li:hover, .far:hover{
+    color: #37C98A;
+    transition: 0.1s;
+}
+#userlogo{
+    color: black;
+}
+#userlogo:hover{
+    
     color: #37C98A;
     transition: 0.1s;
 }
@@ -95,6 +105,21 @@ html, body, .container{
 #pagesList>li{
     margin: 13px;
 }
+
+/* user */
+#login{
+    list-style-type: none;
+    width: 130px;
+    height: 380px;
+    background-color: #3A3C3E;
+    color: white;
+    display: none;
+    position: absolute;
+    z-index: 10;
+    padding: 16px;
+    top: 130px;
+}
+
 .fal{
     width: 20px;
     height: 20px;

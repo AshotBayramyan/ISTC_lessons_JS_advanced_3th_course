@@ -7,6 +7,13 @@ $(document).ready(function(){
 });
 
 
+let userLogo = $("#userLogo")
+let login = $("#login")
+$(document).ready(function(){
+  $(userLogo).hover(function(){
+    $(login).toggle();
+  });
+});
 
 
 
