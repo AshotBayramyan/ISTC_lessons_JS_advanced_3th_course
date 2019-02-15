@@ -103,6 +103,7 @@ html, body, .container{
 #userLogo>i{
     display: flex;
     /* ashxate;l aystegh */
+    
     justify-content: right;   
 }
 #userlogo:hover{
