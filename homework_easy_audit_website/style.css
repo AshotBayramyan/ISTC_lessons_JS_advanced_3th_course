@@ -63,14 +63,7 @@ html, body, .container{
     color: #37C98A;
     transition: 0.1s;
 }
-#userlogo{
-    color: black;
-}
-#userlogo:hover{
-    
-    color: #37C98A;
-    transition: 0.1s;
-}
+
 /* pages */
 #pages{
     display: flex;
@@ -107,23 +100,35 @@ html, body, .container{
 }
 
 /* user */
+#userLogo>i{
+    display: flex;
+    /* ashxate;l aystegh */
+    justify-content: right;   
+}
+#userlogo:hover{
+    
+    color: #37C98A;
+    transition: 0.1s;
+}
+
+
 #login{
-    list-style-type: none;
+    display: flex;
+    justify-content: center;
     width: 130px;
     height: 380px;
     background-color: #3A3C3E;
     color: white;
-    display: none;
+    /* display: none; */
     position: absolute;
     z-index: 10;
-    padding: 16px;
     top: 130px;
 }
 
-.fal{
-    width: 20px;
-    height: 20px;
-}
+
+
+
+
 .slideshow-container{
     display: flex;
     align-items: center;
