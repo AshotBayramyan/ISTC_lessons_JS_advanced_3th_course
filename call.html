@@ -18,12 +18,45 @@
         // foo.call(y)
 
 
-var name = "Ashot"
+// var name = "Ashot"
 
-function y(){
-    console.log(this.name)
+// function y(){
+//     console.log(this.name)
+// }
+// y.call()
+
+
+
+
+function Person (name, surname, age, nationality){
+    this.name = name;
+    this.surname = surname;
+    this.age = age;
+    this.nationality = nationality;
+    this.announce = function(){
+        console.log(this.name + " " + this.surname + " " + this.age + "  " + this.nationality)
+    }
 }
-y.call()
+
+
+function Armenian(name, surname, age, nationality, heigt){
+    Person.call(this, name, surname, age, nationality)
+    this.heigt = heigt;
+}
+
+let armenian = new Armenian("Ashot", "Bayramyan", 25, "Armenian", 50)
+armenian.announce();
+console.log(armenian)
+
+let hay1 = new Armenian("Ashot", "Bayramyan", 25, "Armenian", 50)
+hay1.announce();
+console.log(hay1)
+
+
+// let French = new Person("Franklin", "Gonsales", 30, "French")
+// Armenian.announce()
+// French.announce()
+
 
 
     </script>
