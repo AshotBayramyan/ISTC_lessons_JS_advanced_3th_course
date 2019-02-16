@@ -59,7 +59,7 @@ html, body, .container{
     font-weight: bold;
     
 }
-.ul>li>a:hover, #pagesList>li:hover, .far:hover{
+#userlogo:hover, .sq>div>h2:hover, .sq>div>i:hover, .ul>li>a:hover, #pagesList>li:hover, .far:hover{
     color: #37C98A;
     transition: 0.1s;
 }
@@ -105,11 +105,7 @@ html, body, .container{
     /* ashxate;l aystegh */
     justify-content: right;   
 }
-#userlogo:hover{
-    
-    color: #37C98A;
-    transition: 0.1s;
-}
+
 
 
 #login{
@@ -239,12 +235,57 @@ html, body, .container{
 }
 .sq>div>h2{
     font-size: 30px;
+    cursor: pointer;
+}
+.sq>div>i{
+    cursor: pointer;
 }
 .sq>div>p{
     font-size: 14px;
 }
-.sq>div>i{
-    height: 50px;
-    width: 50px;
+
+
+.icon_1, .icon_2, .icon_3, .icon_4, .icon_5, .icon_6{
+    width: 48px;
+    height: 48px;
+    margin: auto;
+}
+.icon_1{
+    background-image: url(images/case.png);
+}
+.icon_2{
+    background-image: url(images/calculiator.png);
+}
+.icon_3{
+    background-image: url(images/checklist.png);
+}
+.icon_4{
+    background-image: url(images/phone.png);
+}
+.icon_5{
+    background-image: url(images/thumb-up.png);
+}
+.icon_6{
+    background-image: url(images/star.png);
+    
 }
 
+.count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+}
+.green{
+    background-color: #37C98A;
+    height: 580px;
+    width: 100%;
+    
+}
+.grey{
+    background-color: #3A3C3E;
+    position: absolute;
+    width: 90%;
+    height: 650px;
+   
+}
