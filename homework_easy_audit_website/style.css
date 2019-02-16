@@ -103,7 +103,6 @@ html, body, .container{
 #userLogo>i{
     display: flex;
     /* ashxate;l aystegh */
-    
     justify-content: right;   
 }
 #userlogo:hover{
@@ -120,7 +119,7 @@ html, body, .container{
     height: 380px;
     background-color: #3A3C3E;
     color: white;
-    /* display: none; */
+    display: none;
     position: absolute;
     z-index: 10;
     top: 130px;
@@ -236,6 +235,13 @@ html, body, .container{
 } */
 .sq>div{
     text-align: center;
+    padding: 50px;
+}
+.sq>div>h2{
+    font-size: 30px;
+}
+.sq>div>p{
+    font-size: 14px;
 }
 .sq>div>i{
     height: 50px;
