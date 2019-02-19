@@ -6,7 +6,7 @@ let age = document.getElementById("age");
 function Person(name, lastname, age){
     
     this.firstName = name;
-    this.lastname = lastname;
+    this.lastName = lastname;
     this.age = age;
 }
 
