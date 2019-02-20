@@ -12,6 +12,7 @@ function Person(name, lastname, age){
 
 let newPerson = new Person(name, lastname, age)
 
+
 function createNewPerson(){
 
     document.getElementById("demo").innerHTML = newPerson.firstName + " " + newPerson.lastName + " " + newPerson.age;
