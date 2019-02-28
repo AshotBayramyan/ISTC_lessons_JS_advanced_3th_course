@@ -8,11 +8,20 @@
 </head>
 <body>
 <script>
-    function my(n){
-     if(n == 0) return 1;
-     return   n * my(n-1)
-    }
-    console.log(my(4))
+    // function my(n){
+    //  if(n > 1) return n;
+    //  return   n * my(n-1)
+    // }
+    // console.log(my(10))
+
+
+
+console.log((function f(n){return((n>1)? n*f(n-1):n)})(10))
+
+
+
+
+
 </script>
 </body>
 </html>
