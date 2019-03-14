@@ -22,20 +22,30 @@
     justify-content: center;
    
 }
+.clock:after{
+    position: absolute;
+    content: "";
+    background: rgb(48, 46, 46);
+    height: 15px;
+    width: 15px;
+    border-radius: 7.5px;;
+
+
+}
 .slack{
     position: absolute;
-    width: 30px;
-    height: 150px;
+    width: 200px;
+    height: 235px;
 }
 
 .slack_minute{
     position: absolute;
-    width: 50px;
-    height: 100px;
+    width: 300px;
+    height: 200px;
 }
 
 .slack_hour{
     position: absolute;
-    width: 60px;
+    width: 500px;
     height: 120px;
 }
