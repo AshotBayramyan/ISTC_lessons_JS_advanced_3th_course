@@ -26,9 +26,9 @@
     position: absolute;
     content: "";
     background: rgb(48, 46, 46);
-    height: 15px;
-    width: 15px;
-    border-radius: 7.5px;;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;;
 
 
 }
